@@ -39,5 +39,18 @@ int main()
     }
     cout << endl;
 
+    for (int i = n - 1; i >= 0; i--)
+    {
+        if (a[i] % 2 ==0)
+        {
+            for (int j = n; j > i + 1; j--)
+            {
+                a[j] = a[j - 1];
+            }
+            a[i + 1] = 0;
+            n  = n + 1;
+        }
+    }
+
     return 0;
 }
