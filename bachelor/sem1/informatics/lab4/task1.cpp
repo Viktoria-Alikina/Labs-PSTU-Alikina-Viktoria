@@ -21,6 +21,10 @@ int main()
         cout << a[i] << " ";
     }
     cout << endl;
+
+    int k;
+    cout << "Введите номер элемента для удаления";
+    cin >> k;
     
     return 0;
 }
