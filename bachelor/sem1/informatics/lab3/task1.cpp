@@ -27,6 +27,13 @@ int main()
         double termEps = 1.0;
         int idxEps = 1;
 
+        do 
+        {
+            termEps *= (x * ln3) / idxEps;
+            sumEps += termEps;
+            idxEps ++;
+        } while (fabs(termEps) > epsilon);
+
     }
 
     return 0;
