@@ -14,6 +14,13 @@ int main()
     {
         a[i] = rand() % 100 - 50;
     }
+
+    cout << "Исходный массив: ";
+    for  (int i = 0; i < n; i++)
+    {
+        cout << a[i] << " ";
+    }
+    cout << endl;
     
     return 0;
 }
