@@ -16,6 +16,12 @@ int main()
         double sumN = 1.0;
         double currentTerm = 1.0;
         double ln3 = log(3.0);
+        
+        for (int termIndex = 1; termIndex <= n; termIndex++)
+        {
+            currentTerm *= (x * ln3) / termIndex;
+            sumN += currentTerm;
+        }
 
     }
 
