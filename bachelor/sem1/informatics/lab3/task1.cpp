@@ -34,6 +34,8 @@ int main()
             idxEps ++;
         } while (fabs(termEps) > epsilon);
 
+        cout << "X=" << x << "\tSN=" << sumN << "\tSE=" << sumEps << "\tY=" <<exactValue << endl;
+
     }
 
     return 0;
