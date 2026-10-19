@@ -25,12 +25,19 @@ int main()
     int k;
     cout << "Введите номер элемента для удаления";
     cin >> k;
-    
+
     for (int i = k - 1; i < n - 1; i++)
     {
         a[i] = a[i + 1];
     }
     n = n - 1;
+
+    cout << "Массив после удаления элемента";
+    for (int i = 0; i < n; i++)
+    {
+        cout << a[i] << " ";
+    }
+    cout << endl;
 
     return 0;
 }
