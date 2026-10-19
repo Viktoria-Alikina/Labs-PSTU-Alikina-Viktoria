@@ -51,6 +51,12 @@ int main()
             n  = n + 1;
         }
     }
-
+    cout << "Итоговый массив: ";
+    for (int i = 0; i < n; i++)
+    {
+        cout << a[i] << " ";
+    }
+    cout << endl;
+    
     return 0;
 }
