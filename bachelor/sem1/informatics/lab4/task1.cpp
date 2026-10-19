@@ -9,6 +9,11 @@ int main()
     int n;
     cout << "Введите реальную длину массива";
     cin >> n;
+
+    for (int i = 0; i < n; i++)
+    {
+        a[i] = rand() % 100 - 50;
+    }
     
     return 0;
 }
