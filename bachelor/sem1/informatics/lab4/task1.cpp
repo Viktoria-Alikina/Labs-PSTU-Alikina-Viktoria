@@ -12,7 +12,7 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
-        a[i] = rand() % 100 - 50;
+        a[i] = rand();
     }
 
     cout << "Исходный массив: ";
