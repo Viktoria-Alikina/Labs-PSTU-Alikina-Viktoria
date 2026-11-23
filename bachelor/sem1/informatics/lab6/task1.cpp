@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     char s[256];
-    gets(s);
+    cin.getline(s, 256);
 
     int len = strlen(s);
     bool f = false;
@@ -19,11 +19,11 @@ int main()
 
     if (f == false)
     {
-        cout << "the row is palindrom" << endl;
+        cout << "the row is a palindrom" << endl;
     }
     else
     {
-        cout << "the row is not palindrom" << endl;
+        cout << "the row is not a palindrom" << endl;
     }
 
     return 0;
