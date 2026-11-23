@@ -22,6 +22,10 @@ int main()
     cin >> row1;
     cin >> row2;
     cin >> row3;
+    
+    split(row1);
+    split(row2);
+    split(row3);
 
     return 0;
 }
