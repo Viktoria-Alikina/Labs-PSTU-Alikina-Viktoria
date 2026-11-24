@@ -6,9 +6,18 @@ int sum(int n, int a[])
     int s = 0;
     for (int i = 0; i < n; i++)
     {
-        s += a[i]
+        s += a[i];
     }
     cout << "The sum of numbers of type int = " << s << endl;
+}
+complex<double> sum(int n, const complex<double> a[])
+{
+    complex<double> s =(0.0, 0.0);
+    for (int i = 0; i < n; i++)
+    {
+        s += a[i];
+    }
+    cout << "The sum of numbers of type complex = " << s << endl;
 }
 int main()
 {
